@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Yeseva+One);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,700italic,400italic);
+
+body, div, span, applet, canvas, q, s, samp, i, center, tt, u, b, img, ins, kbd, ruby, section, time, mark, audio {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+article > *:first-child {
+    margin-top: 0;
+}
+aside p {
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin: 3px 0;
+}
+h6, h4, p, .text_style_ {
+    font-weight: bold;
+}
+.header__auralink--3 {
+    margin: 1.5em 0;
+}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgba(0, 0, 0, .8);
+}
+h1, h2 .header__auralink--3 {
+    font-size: 46px;
+}
+#Header {
+    padding: 50px;
+    height: auto;
+}
+#main_menu ul, header > ul > li, .logo {
+    font-size: 2em;
+}
+header li a {
+    text-decoration: none;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 1em;
+}
+article, .aside {
+    flex: auto .2 .4;
+    margin: .5em;
+}
+table {
+    margin: .3em;
+    caption-side: bottom;
+}
+thead tr th, tbody td {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    text-align: left;
+}
+caption {
+    font-style: italic;
+    margin-top: .5em;
+}
+#main__menu ul, aside > ul > li, .logo {
+    font-size: .5em;
+}
+footer { text-align: center; padding: 20px; }
+p {
+    margin: 1px;
+}
+@media (min-width: 40rem) {
+    body {
+        width: 35em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #main__menu ul, aside > ul > li, .logo {
+        font-size: .625em;
+    }
+}
+@media (min-width: 70rem) {
+    body { width: 50em; }
+    header li a { padding: 10px 15px; border-radius: 5px; }
+    footer {text-align: center; padding: 30px; }
+
+    .header_auralink--3 { font-size: 56px; }
+    #main__menu ul, aside > ul > li, .logo {
+        font-size: .8em;
+    }
+}
